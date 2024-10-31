@@ -1,0 +1,12 @@
+let userProfile = {
+  fullName: prompt("Enter your full name:"),
+  age: prompt("Enter your age:"),
+  favoriteNumber: prompt("Enter your favorite number:"),
+  favoriteColors: [
+    prompt("Enter your first favorite color:"),
+    prompt("Enter your second favorite color:"),
+    prompt("Enter your third favorite color:"),
+  ],
+};
+
+console.log(userProfile);
